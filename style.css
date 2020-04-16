@@ -43,6 +43,7 @@ nav{
     font-size:18px;
 }
 .skills{
+    margin-top: 40px;
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
@@ -65,4 +66,60 @@ ul{
     width: 250px;
     box-shadow: 1px 1px 50px red;
     border-radius: 10px;
+}
+.project{
+    background-color:#1f90b2;
+    color:black;
+    margin-top: -70px;
+  
+}
+.project h1{
+    margin-top: 0;
+}
+.box{
+    display: flex;
+  
+    justify-content: space-evenly;
+}
+.content-box{
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    /*border: 0 solid red;*/
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 0 3px;
+    box-shadow: 1px 1px 50px black;
+}
+.img-box{
+    width: 280px;
+    height: 150px;
+    margin:-10px auto 0 auto;
+}
+.img-box img{
+    width: 280px;
+    border-radius: 5px;
+    animation-name: test;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    height: 150px;
+    box-shadow: 1px 1px 50px;
+}
+.content-box span{
+    font-size: 22px;
+}
+@keyframes test{
+    25%{transform: skewX(5deg);}
+    50%{transform: skewX(-5deg);}
+    75%{transform: skewY(5deg);}
+    100%{transform: skewY(-5deg);}
+}
+button{
+    font-size: 25px;
+    margin: 2px auto;
+    display: block;
+    background-color:rgb(255, 212, 199);;
+    border: 2px solid #3f00ff;
+    border-radius: 8px;
 }
