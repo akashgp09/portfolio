@@ -8,6 +8,7 @@ header{
     position: fixed;
     height: 65px;
     top: 0;
+    z-index: 1;
     left: 0;
     box-shadow:1px 1px 50px black;
 }
@@ -60,7 +61,7 @@ main{
 li{
     margin:15px;
 }
-ul{
+.skills ul{
     padding: 5px;
     border: 2px solid whitesmoke;
     width: 250px;
@@ -122,4 +123,18 @@ button{
     background-color:rgb(255, 212, 199);;
     border: 2px solid #3f00ff;
     border-radius: 8px;
+}
+.contact{
+    margin-top: -80px;
+    background-color: black;
+}
+.contact li{
+    display: inline-block;
+}
+.contact ul{
+    text-align: center;
+}
+.contact span{
+    display: block;
+    text-align: center;
 }
