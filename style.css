@@ -1,13 +1,13 @@
-
 header{
    /* background: rgba(13, 91, 103, 1);*/
   
     height: 4rem;
+    background-color:rgba(0, 0, 0, .9);
 }
 .about{
     padding-top: 10px;
-    background-color: #212121;
-    color:whitesmoke;
+   background-color: rgba(0, 0, 0, .9);
+    color: white;
    
 }
 .myImg{
@@ -28,8 +28,8 @@ header{
     justify-content: space-evenly;
 }
 .skill-content{
-    padding-top: 80px;
-    background-color: #c2c2c2;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
 }
    
 
@@ -42,9 +42,10 @@ li{
 }
 .skills ul{
     padding: 5px;
-    border: 2px solid whitesmoke;
+   
     width: 250px;
-    box-shadow: 1px 1px 50px red;
+    
+   /* box-shadow: 1px 1px 50px red;*/
     border-radius: 10px;
 }
 .project{
@@ -116,4 +117,37 @@ button{
 .contact span{
     display: block;
     text-align: center;
+}
+.fa-js-square{
+    color: #FDD835
+}
+.fa-bootstrap{
+    color: purple;
+}
+.fa-react {
+    color: #61DBFB;
+}
+
+.fa-node {
+    color: #3E863C;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-css3-alt{
+    color:  #264de4;
+}
+.fa-mdb{
+    color:green
+}
+.fa-git-alt{
+    color: rgb(255, 72, 0);
+
+}
+.fa-python{
+    background-color: linear-gradient(#17A2B8, yellow);
+}
+
+.fa-fire {
+    color: #F5820A;
 }
