@@ -1,36 +1,14 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(0, 0, 0, 0.92)
-}
-header{
-    width: 100%;
-    background: rgba(13, 91, 103, 1);
-    position: fixed;
-    height: 65px;
-    top: 0;
-    z-index: 1;
-    left: 0;
-    box-shadow:1px 1px 50px black;
-}
-span{
-    display: inline-block;
-    margin-top: 13px;
-    margin-left: 30px;
-    font-size: 30px;
-    text-shadow:0 0 2px black;;
 
-}
-.nav-list{
-    display: inline;
-    margin-right: 20px;
-}
-nav{
-    font-size: 20px;
-    margin-top:2px;
-    float: right;
+header{
+   /* background: rgba(13, 91, 103, 1);*/
+  
+    height: 4rem;
 }
 .about{
-    margin-top: 100px;
+    padding-top: 10px;
+    background-color: #212121;
+    color:whitesmoke;
+   
 }
 .myImg{
     width: 150px;
@@ -41,23 +19,24 @@ nav{
 
 }
 .about{
-    font-size:18px;
+    font-size:1.3rem;
 }
 .skills{
-    margin-top: 40px;
+    padding-top: 40px;
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
 }
 .skill-content{
-    margin-top: 80px;
+    padding-top: 80px;
+    background-color: #c2c2c2;
 }
+   
+
 li{
     list-style: none;
 }
-main{
-    color:thistle;
-}
+
 li{
     margin:15px;
 }
