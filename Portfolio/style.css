@@ -184,13 +184,14 @@ li {
 
 .jammming-text {
   font-size: x-large;
+  z-index: 1;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.925);
+  color: rgba(0, 0, 0, 0.863);
 }
 .jammming-text-2 {
   font-size: xx-large;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.925);
+  color: rgba(0, 0, 0, 0.863);
 }
 @media only screen and (max-width: 768px) {
   .test {
@@ -201,15 +202,28 @@ li {
   .jam-content {
     position: absolute !important;
   }
+  .jammming-text-2 {
+    padding-bottom: 0.3rem;
+  }
+  /* .jammming-text {
+    padding-top: 0.16rem;
+  } */
 }
 @media only screen and (max-width: 576px) {
+  .second-pro-text {
+    font-size: 1.2rem;
+  }
+  .second-pro-box-text {
+    font-size: 0.7rem;
+  }
   .jammming {
     background: #8b49a000;
   }
-  /* .jam-img-container {
-    position: absolute !important;
-  } */
+  .second-pro-margin {
+    margin: 0 15px;
+  }
   .jam-content {
+    z-index: 3;
     position: absolute !important;
   }
   .test {
@@ -230,4 +244,24 @@ li {
 .jam-img {
   opacity: 0.4;
   border-radius: 0.3rem;
+}
+@media only screen and (max-width: 786px) and (min-width: 576px) {
+  .padding-sec-tool {
+    margin-left: -0.5rem;
+  }
+}
+@media only screen and (max-width: 346px) {
+  .jammming-text,
+  .jammming-text-2 {
+    font-size: small;
+  }
+  .jammming {
+    font-size: x-small;
+  }
+}
+.margin-between-pro {
+  margin-top: 7rem;
+}
+.jam-content {
+  z-index: 1;
 }
