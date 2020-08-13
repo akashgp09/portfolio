@@ -1,1 +1,1 @@
-<h2>Made this Adhoc replica using Bootstrap.</h2
+<h2>Made Adhoc replica using Bootstrap.</h2
