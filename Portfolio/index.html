@@ -42,10 +42,12 @@
         </button>
         <div class="collapse navbar-collapse" id="target">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link border-active mr-3" href="#">About</a>
-            <a class="nav-item nav-link mr-3" href="#">Skills</a>
-            <a class="nav-item nav-link mr-3" href="#">Project</a>
-            <a class="nav-item nav-link mr-3" href="#">Contact</a>
+            <a class="nav-item nav-link border-active mr-3 stagger" href="#"
+              >About</a
+            >
+            <a class="nav-item nav-link mr-3 stagger" href="#">Skills</a>
+            <a class="nav-item nav-link mr-3 stagger" href="#">Project</a>
+            <a class="nav-item nav-link mr-3 stagger" href="#">Contact</a>
           </div>
         </div>
       </nav>
@@ -81,9 +83,9 @@
 
       <div class="about-me diagonal-split-background">
         <h1><i class="fas fa-user-circle mb-3"></i>About Me</h1>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-lg-7 col-sm-12">
               <p>
                 Hi! I'm Akash, a 19 Year's developer slowly conquering the world
                 of stack!<br />Right from time, I've always been fascinated by
@@ -96,15 +98,22 @@
                 Institute of technology<br />
                 I am in the evergreen process of learning, and I am loving it!
               </p>
-              <center>
-                <a
-                  class="btn-lg btn-outline-dark"
-                  href="Jumbo action link"
-                  role="button"
-                  style="font-size: larger;"
-                  ><i class="fas fa-download mr-2"></i>Resume</a
-                >
-              </center>
+              <!-- <center> -->
+              <a
+                class="btn btn-outline-primary ml-5 mr-3"
+                href="Jumbo action link"
+                role="button"
+                style="font-size: large;"
+                ><i class="fas fa-download fa-fw fa-lg mr-2"></i>Resume</a
+              >
+              <a
+                class="btn btn-outline-danger"
+                href="Jumbo action link"
+                role="button"
+                style="font-size: large;"
+                ><i class="fab fa-github fa-fw fa-lg mr-2"></i>Github</a
+              >
+              <!-- </center> -->
             </div>
             <div class="col-sm">
               <img
@@ -560,72 +569,66 @@
       <!-- Articles -->
       <div class="articles">
         <h1><i class="fas fa-book"></i>&nbsp;Articles</h1>
-        <center>
-          <div class="row mt-5 justify-content-around mx-auto container">
-            <div class="col mb-3">
-              <div class="card" style="width: 18rem;">
-                <img
-                  class="card-img-top img-fluid"
-                  src="./images/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a
-                    class="btn btn-outline-dark cat"
-                    href="Jumbo action link"
-                    role="button"
-                    ><i class="fab fa-medium fa-fw fa-lg"></i>Medium</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col mb-3">
-              <div class="card" style="width: 18rem;">
-                <img
-                  class="card-img-top img-fluid"
-                  src="./images/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a
-                    class="btn btn-outline-dark cat"
-                    href="Jumbo action link"
-                    role="button"
-                    ><i class="fab fa-medium fa-fw fa-lg"></i>Medium</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col mb-3">
-              <div class="card" style="width: 18rem;">
-                <img
-                  class="card-img-top img-fluid"
-                  src="./images/web-development-web-design-mobile-app-development-digital-marketingservices-cloudi5.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
 
-                  <a
-                    class="btn btn-outline-dark"
-                    href="Jumbo action link"
-                    role="button"
-                    ><i class="fab fa-medium fa-fw fa-lg"></i>Medium</a
-                  >
+        <center>
+          <div class="container">
+            <div class="row mb-2">
+              <div class="col">
+                <div class="banner1">
+                  <img class="responsive-img" src="./images/React_Banner.png" />
+                  <div class="centered">
+                    Why do we need to bind event Handlers in React ?
+                  </div>
+                  <div class="left-bottom">
+                    <a
+                      class="btn btn-dark"
+                      href="Jumbo action link"
+                      role="button"
+                      ><i class="fab fa-medium fa-fw fa-lg"></i>Medium</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <div class="banner2">
+                  <img
+                    class="responsive-img"
+                    src="./images/expressBanner.png"
+                  />
+                  <div class="centered">
+                    DRYing Code in express.js using app.use()
+                  </div>
+                  <div class="left-bottom">
+                    <a
+                      class="btn btn-dark"
+                      href="Jumbo action link"
+                      role="button"
+                      ><i class="fab fa-medium fa-fw fa-lg"></i>Medium</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <div class="banner3">
+                  <img
+                    class="responsive-img"
+                    src="./images/react-banner2.jpg"
+                  />
+                  <div class="centered">
+                    super() Vs super(props) in React
+                  </div>
+                  <div class="left-bottom">
+                    <a
+                      class="btn btn-dark"
+                      href="Jumbo action link"
+                      role="button"
+                      ><i class="fab fa-medium fa-fw fa-lg"></i>Medium</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -647,23 +650,35 @@
           <h1><i class="fas fa-id-card-alt"></i>&nbsp;Contact</h1>
           <ul>
             <li>
-              <a href="#"><i class="fab fa-github fa-fw fa-3x"></i></a>
+              <a href="#"
+                ><img src="./icons/gmail-icon.svg" class="fa-fw fa-3x"
+              /></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-twitter fa-fw fa-3x"></i></a>
+              <a href="#"
+                ><img
+                  src="./icons/twitter-seeklogo.com.svg"
+                  class="fa-fw fa-3x"
+              /></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-quora fa-fw fa-3x"></i></a>
+              <a href="#"
+                ><img src="./icons/medium-svgrepo-com.svg" class="fa-fw fa-3x"
+              /></a>
             </li>
             <li>
-              <a href="#"><i class="far fa-envelope fa-fw fa-3x"></i></a>
+              <a href="#"
+                ><img src="./icons/Octocat.png" class="fa-fw fa-3x"
+              /></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-medium fa-fw fa-3x"></i></a>
+              <a href="#"
+                ><img src="./icons/quora.svg" class="fa-fw fa-3x"
+              /></a>
             </li>
           </ul>
           <span
-            ><i class="far fa-copyright"></i>Made By Akash Gupta<i
+            ><i class="far fa-copyright"></i>Built & Designed by Akash Gupta<i
               class="far fa-heart"
             ></i
           ></span>
