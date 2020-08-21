@@ -7,6 +7,31 @@ setTimeout(function () {
 
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.from(".project1-anime", {
+  scrollTrigger: {
+    trigger: ".project1-anime",
+  },
+
+  duration: 0.7,
+  x: 100,
+  opacity: 0.2,
+});
+gsap.from(".project2-anime", {
+  scrollTrigger: {
+    trigger: ".project2-anime",
+  },
+  x: -100,
+  duration: 0.7,
+  opacity: 0.2,
+});
+gsap.from(".project3-anime", {
+  scrollTrigger: {
+    trigger: ".project3-anime",
+  },
+  x: 100,
+  opacity: 0.2,
+  duration: 0.7,
+});
 gsap.to(".h1", {
   duration: 2.4,
   opacity: 1,
@@ -49,7 +74,7 @@ gsap.from(".nav-anime", {
   x: -10,
   duration: 1,
   scale: 0.7,
-  opacity: 0.4,
+  opacity: 0.1,
   stagger: 0.1,
   force3D: true,
   delay: 4.3,
@@ -70,7 +95,7 @@ gsap.from(".header-button", {
 });
 gsap.from(".about-anime", {
   delay: 6.2,
-  y: -20,
+  y: -5,
   duration: 0.7,
   opacity: 0,
 });
@@ -121,7 +146,6 @@ gsap.from(".skills-anime4", {
 gsap.from(".article1-anime", {
   scrollTrigger: {
     trigger: ".article1-anime",
-    start: "top 90%",
   },
   x: -150,
 
@@ -130,7 +154,6 @@ gsap.from(".article1-anime", {
 gsap.from(".article2-anime", {
   scrollTrigger: {
     trigger: ".article2-anime",
-    start: "top 90%",
   },
   x: 150,
 
@@ -139,40 +162,12 @@ gsap.from(".article2-anime", {
 gsap.from(".article3-anime", {
   scrollTrigger: {
     trigger: ".article3-anime",
-    start: "top 90%",
   },
   x: -150,
 
   duration: 0.8,
 });
-gsap.from(".project1-anime", {
-  scrollTrigger: {
-    trigger: ".project1-anime",
-    start: "top 90%",
-  },
 
-  x: -100,
-  opacity: 0,
-  duration: 1,
-});
-gsap.from(".project2-anime", {
-  scrollTrigger: {
-    trigger: ".project2-anime",
-    start: "top 90%",
-  },
-  x: 100,
-  opacity: 0,
-  duration: 1,
-});
-gsap.from(".project3-anime", {
-  scrollTrigger: {
-    trigger: ".project3-anime",
-    start: "top 90%",
-  },
-  x: -100,
-  opacity: 0,
-  duration: 1,
-});
 gsap.from(".hidden-skill-anime1", {
   scrollTrigger: {
     trigger: ".hidden-skill-anime1",

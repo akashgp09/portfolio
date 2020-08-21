@@ -26,6 +26,7 @@
 body {
   overflow: hidden;
 }
+
 .preload-screen {
   display: flex;
   justify-content: center;
@@ -106,12 +107,24 @@ body {
 }
 
 body {
-  font-family: "Mukta";
+  font-family: "Mukta", Sans-Serif;
+}
+.project-descp {
+  background: linear-gradient(rgba(29, 37, 113), rgba(195, 55, 100));
+}
+
+.overlay {
+  overflow: hidden;
+  border-radius: 0.3rem;
+  background: -webkit-linear-gradient(
+    rgba(29, 38, 113, 0.8),
+    rgba(195, 55, 100, 0.8)
+  );
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
 }
 .header-text {
   font-weight: 500 !important;
   color: rgba(255, 255, 255, 0.562);
-  /* font-size: 4rem; */
 }
 
 .articles,
@@ -119,6 +132,7 @@ body {
 .project {
   overflow-x: hidden !important;
 }
+
 header {
   background-color: rgba(0, 0, 0, 0.93);
 }
@@ -158,11 +172,7 @@ li {
 li {
   margin: 15px;
 }
-.skills ul {
-  padding: 5px;
-  width: 250px;
-  border-radius: 10px;
-}
+
 .project {
   background-color: #1d90a21f;
   color: black;
@@ -190,51 +200,11 @@ li {
   display: block;
   text-align: center;
 }
-.fa-js-square {
-  color: #fdd835;
-}
-.fa-bootstrap {
-  color: purple;
-}
-.fa-react {
-  color: #61dbfb;
-}
 
-.fa-node {
-  color: #3e863c;
-}
-.fa-html5 {
-  color: orangered;
-}
-.fa-css3-alt {
-  color: #264de4;
-}
-.fa-mdb {
-  color: green;
-}
-.fa-git-alt {
-  color: rgb(255, 72, 0);
-}
-.fa-python {
-  background-color: linear-gradient(#17a2b8, yellow);
-}
-
-.fa-fire {
-  color: #f5820a;
-}
-.fa-envelope {
-  color: brown;
-}
 .fa-medium {
   color: white;
 }
-.fa-quora {
-  color: red;
-}
-.card-img-top {
-  max-width: 100%;
-  height: 13rem;
-}
+
 .font-size {
   font-size: 1.4rem;
 }
@@ -244,9 +214,6 @@ li {
 
 .custom-toggler.navbar-toggler {
   border-color: #dc3545;
-}
-.project-descp {
-  background: linear-gradient(rgba(29, 37, 113), rgba(195, 55, 100));
 }
 
 .project-tool-descp {
@@ -329,16 +296,6 @@ li {
   }
 }
 
-.overlay {
-  overflow: hidden;
-  border-radius: 0.3rem;
-  background: -webkit-linear-gradient(
-    rgba(29, 38, 113, 0.8),
-    rgba(195, 55, 100, 0.8)
-  );
-  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
-}
-
 @media only screen and (max-width: 786px) and (min-width: 576px) {
   .padding-sec-tool {
     margin-left: -0.5rem;
@@ -350,9 +307,10 @@ li {
     font-size: medium;
   }
   .project-descp {
-    font-size: x-small;
+    font-size: small;
   }
 }
+
 .margin-between-pro {
   margin-top: 7rem;
 }
@@ -363,7 +321,7 @@ li {
   font-size: 1.6rem;
   line-height: 2.8rem;
 
-  font-family: "Mukta";
+  font-family: "Mukta", Sans-Serif;
 }
 
 .diagonal-split-background {
@@ -372,7 +330,7 @@ li {
 .skill-text {
   font-size: 1.8rem;
   font-weight: 600;
-  font-family: "Mukta";
+  font-family: "Mukta", Sans-Serif;
   margin-left: 1.5rem;
   color: #100d389f;
 }
@@ -381,7 +339,7 @@ li {
 }
 .articles {
   margin-top: 3rem;
-  background-color: #fcfcfc;
+  background-color: #fff;
 }
 .clip {
   position: absolute;
@@ -395,23 +353,6 @@ li {
 }
 .exp {
   background-color: black;
-}
-.card {
-  background-image: -webkit-linear-gradient(
-    40deg,
-    #c3aa9d61 50%,
-    #32120029 50%
-  );
-  background: linear-gradient(
-    rgba(170, 178, 236, 0.8),
-    rgba(247, 127, 165, 0.8)
-  );
-}
-.card-medium {
-  color: black;
-}
-.card-medium:hover {
-  color: white;
 }
 
 .responsive-img {
